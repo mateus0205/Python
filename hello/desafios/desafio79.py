@@ -3,11 +3,15 @@
 # no final, serão exibidos os
 # valores unicos digitados em ordem crescente.
 lista = list()
-for cont in range(0,5):
+while True:
     valor = int(input('Digite um valor: '))
-    
     if valor not in lista:
-        lista.append(valor) 
+        lista.append(valor)
+    else:
+        print()
+    resposta = str(input('Quer Continuar? [S/N] '))
+    if resposta in 'Nn':
+        break
 
 lista.sort()
 print(lista)
