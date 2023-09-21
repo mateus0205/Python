@@ -2,16 +2,13 @@
 # caso o numero ja exista la dentro, ele não será adicionado.
 # no final, serão exibidos os
 # valores unicos digitados em ordem crescente.
-lista = list()
+lista = []
 while True:
     valor = int(input('Digite um valor: '))
     if valor not in lista:
         lista.append(valor)
-    else:
-        print()
-    resposta = str(input('Quer Continuar? [S/N] '))
-    if resposta in 'Nn':
+    resposta = input('Quer Continuar? [S/N] ').strip().upper()
+    if resposta == 'N':
         break
-
 lista.sort()
-print(lista)
+print(sorted(lista))  # Ordena e imprime a lista de valores únicos
