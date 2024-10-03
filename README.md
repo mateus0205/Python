@@ -1,23 +1,30 @@
-Curso de Python - Guanabara
+# Curso de Python 3 - Guanabara
 Este repositório contém os códigos e exercícios desenvolvidos durante as aulas do curso de Python ministrado pelo professor Guanabara. O conteúdo está organizado por módulos, com anotações e exemplos de códigos que ajudam a reforçar o aprendizado.
 
 Conteúdo do Repositório
-🔹 Módulo 1: Introdução ao Python
-Configuração do ambiente de desenvolvimento
-Primeiros passos com Python
-Tipos de dados básicos (inteiros, floats, strings)
-Operações aritméticas
-Entrada e saída de dados
-Estruturação de um programa simples
-🔹 Módulo 2: Estruturas Condicionais
-Condicionais if, else, elif
-Operadores lógicos e relacionais
-Estruturas de repetição (while, for)
-Controle de fluxo (break, continue)
-Trabalhando com listas e laços
-Exercícios práticos envolvendo tomadas de decisão e loops
-🔹 Módulo 3: Funções (Incompleto)
-Definição e uso de funções
-Parâmetros e retorno de valores
-Escopo de variáveis
-Funções com múltiplos parâmetros (em andamento)
+## 🔹 Mundo 1: Introdução ao Python (40 horas)
+- Introdução ao mundo da Programação
+- Primeiros Passos com o Python
+- Tratando dados e fazendo contas
+- Usando módulos do Python
+- Condições em Python (if..else)
+- Adicionando Cores ao Python
+## 🔹 Mundo 2: Estruturas Condicionais (40 horas)
+- Introdução ao Mundo 2
+- Condições em Python (if..elif)
+- Repetições em Python (for)
+- Repetições em Python (while)
+## 🔹 Mundo 3: Funções (Incompleto) (40 horas)
+- Tuplas 
+- Listas
+- Dicionários 
+- Funções 
+- Modularização 
+- Tratamento de erros
+
+## 📚 Recuros Adicionais 
+Para mais detalhes sobre o curso, visite o [Curso em video](https://www.cursoemvideo.com/) de Python do professor Guanabara.
+
+## ⚠️ Status do Projeto
+- Mundos 1 e 2: completos.
+- Mundo 3: em andamento.
