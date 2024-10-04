@@ -3,6 +3,7 @@
 # permita que o usario possa mostrar as notas de cada aluno individualmente. 
 boletim = list()
 quantidade = 0
+
 while True:
     nome = str(input('Digite seu nome: '))
     nota1 = float(input('Nota 1: '))
@@ -23,7 +24,6 @@ print('-'*30)
 for i, aluno in enumerate(boletim):
     print(f'{i:<4} {aluno[0]:<10} {aluno[2]:>8.2f}')  # Exibe nome e média dos alunos
 print('-' * 30)
-
 
 while True:  
     print('-'*30)
